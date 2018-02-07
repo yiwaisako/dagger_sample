@@ -26,7 +26,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 
-    def daggerVersion = "2.13"
+    def daggerVersion = "2.14.1"
     compile "com.google.dagger:dagger-android:$daggerVersion"
     compile "com.google.dagger:dagger-android-support:$daggerVersion"
     annotationProcessor "com.google.dagger:dagger-android-processor:$daggerVersion"
